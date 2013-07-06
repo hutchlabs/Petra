@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-06-14 20:58:34 --- ERROR: ErrorException [ 2 ]: array_keys() [function.array-keys]: The first argument should be an array ~ APPPATH/classes/model/client.php [ 615 ]
+2013-06-14 20:58:48 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-06-14 20:58:50 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-06-14 20:58:51 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-06-14 20:59:15 --- ERROR: ErrorException [ 2 ]: array_keys() [function.array-keys]: The first argument should be an array ~ APPPATH/classes/model/client.php [ 615 ]
+2013-06-14 20:59:23 --- ERROR: ErrorException [ 2 ]: array_keys() [function.array-keys]: The first argument should be an array ~ APPPATH/classes/model/client.php [ 615 ]

@@ -1,0 +1,13 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-04-24 04:35:07 --- ERROR: ErrorException [ 2 ]: getimagesize(http://localhost/members/assets/images/petra.jpg) [function.getimagesize]: failed to open stream: Connection refused ~ DOCROOT/fpdf17/fpdf.php [ 1213 ]
+2013-04-24 04:35:40 --- ERROR: ErrorException [ 2 ]: getimagesize(http://localhost/members/assets/images/petra.jpg) [function.getimagesize]: failed to open stream: Connection refused ~ DOCROOT/fpdf17/fpdf.php [ 1213 ]
+2013-04-24 11:21:15 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-04-24 11:21:49 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: assets/css/images/slider_handles.png ~ SYSPATH/classes/kohana/request.php [ 607 ]
+2013-04-24 11:21:56 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: assets/css/images/slider_handles.png ~ SYSPATH/classes/kohana/request.php [ 607 ]
+2013-04-24 16:42:56 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-04-24 16:43:35 --- ERROR: ErrorException [ 2 ]: array_keys() [function.array-keys]: The first argument should be an array ~ APPPATH/classes/model/client.php [ 52 ]
+2013-04-24 16:43:50 --- ERROR: ErrorException [ 2 ]: array_keys() [function.array-keys]: The first argument should be an array ~ APPPATH/classes/model/client.php [ 52 ]
+2013-04-24 16:48:50 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: assets/css/images/slider_handles.png ~ SYSPATH/classes/kohana/request.php [ 607 ]
+2013-04-24 18:49:42 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-04-24 20:27:39 --- ERROR: ErrorException [ 8 ]: Undefined variable: enddate ~ APPPATH/classes/controller/admin.php [ 250 ]

@@ -1,0 +1,20 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-02-25 14:55:52 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:12:55 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:19 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:19 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:19 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:19 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:30 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:30 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:31 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-02-25 15:20:31 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') JOIN funds_clients fc ON fc.fund_id  = f.id
+                  JOIN clients c O' at line 7 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]

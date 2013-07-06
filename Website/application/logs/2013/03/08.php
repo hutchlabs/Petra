@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2013-03-08 18:10:15 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND clients.type = 'employee'' at line 1 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-03-08 18:10:21 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND clients.type = 'employee'' at line 1 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]
+2013-03-08 18:10:24 --- ERROR: PDOException [ 42000 ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND clients.type = 'employee'' at line 1 ~ MODPATH/database/classes/kohana/database/pdo.php [ 81 ]

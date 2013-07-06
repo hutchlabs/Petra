@@ -1,0 +1,17 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-10-24 01:08:53 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected '=' ~ APPPATH/classes\controller\api.php [ 21 ]
+2012-10-24 01:09:32 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected '=' ~ APPPATH/classes\controller\api.php [ 21 ]
+2012-10-24 01:27:37 --- ERROR: ErrorException [ 8 ]: Undefined index: value ~ APPPATH/classes\controller\api.php [ 30 ]
+2012-10-24 01:27:55 --- ERROR: ErrorException [ 8 ]: Undefined index: value ~ APPPATH/classes\controller\api.php [ 30 ]
+2012-10-24 03:01:30 --- ERROR: ErrorException [ 1024 ]: Connection time-out ~ APPPATH/classes\controller\api.php [ 176 ]
+2012-10-24 03:02:37 --- ERROR: ErrorException [ 1024 ]: Message could not be sent: 000 ~ APPPATH/classes\controller\api.php [ 108 ]
+2012-10-24 03:05:27 --- ERROR: ErrorException [ 1024 ]: connect() timed out! ~ APPPATH/classes\controller\api.php [ 177 ]
+2012-10-24 03:05:43 --- ERROR: ErrorException [ 1024 ]: connect() timed out! ~ APPPATH/classes\controller\api.php [ 177 ]
+2012-10-24 04:06:11 --- ERROR: ErrorException [ 8 ]: Undefined variable: logged_in ~ APPPATH/views\templates\base.php [ 40 ]
+2012-10-24 04:12:46 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/body-bg.png ~ SYSPATH/classes\kohana\request.php [ 607 ]
+2012-10-24 04:21:06 --- ERROR: Kohana_Request_Exception [ 0 ]: Unable to find a route to match the URI: img/signin/check.png ~ SYSPATH/classes\kohana\request.php [ 607 ]
+2012-10-24 04:34:50 --- ERROR: ReflectionException [ -1 ]: Class controller_users does not exist ~ SYSPATH/classes\kohana\request.php [ 934 ]
+2012-10-24 05:14:07 --- ERROR: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH/views\templates\base.php [ 51 ]
+2012-10-24 05:48:31 --- ERROR: ReflectionException [ -1 ]: Class controller_users does not exist ~ SYSPATH/classes\kohana\request.php [ 934 ]
+2012-10-24 05:52:10 --- ERROR: ErrorException [ 4096 ]: Object of class Model_User could not be converted to string ~ APPPATH/views\templates\base.php [ 65 ]
