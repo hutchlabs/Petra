@@ -128,6 +128,7 @@ def processfile(inputfile):
         ssn = sh.cell_value(rownum, ssnIdx) if ssnIdx > -1 else ''
         mid = sh.cell_value(rownum, midIdx) if midIdx > -1 else ''
         mainid = ssn if ssn != '' else mid
+        mainid = cleanid(mainid)
         employee = GetEmployee(ssn, mid)
 
         new = 0
@@ -151,7 +152,7 @@ def processfile(inputfile):
                     except:
                         print 'Error processing string:', repr(eid)
                     continue
-            mainid = fixerrors(mainid)    
+            mainid = fixerrors(mainid)
             n = x if x is not None else names[rownum]+' '+str(mainid)
 
 
@@ -496,6 +497,15 @@ def CoFix(name):
     except:
         return name
 
+def cleanid(id):
+    try:
+        id = id.strip()
+    except:
+        id = str(id).strip()
+    id = id.replace('.0','')
+
+    return id
+
 def fixerrors(tobe):
     try:
         tobe= re.sub(r'[\xc2\xa0]'," ",tobe)
@@ -504,7 +514,7 @@ def fixerrors(tobe):
         print type(tobe)
         print repr(tobe)
 
-    return tobe.strip()
+    return str(tobe).strip()
 
 def fixname(name):
     p = re.compile("\(.*?\)|\.")
